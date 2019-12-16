@@ -1,0 +1,45 @@
+---
+title: "NASA Datanaut Presentation"
+subtitle: "Using Default Slides"
+author: "David Meza<br /> Sr. Data Scientist"
+institute: "NASA - Open Innovation Program"
+date: "12/16/2019"
+output:
+  xaringan::moon_reader:
+    css: ["default", "libs/css/datanaut.css"]
+    lib_dir: libs
+    nature:
+      titleSlideClass: ["title-slide"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: datanaut-title-slide
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+Using this **class** will creates a slide with the OCHCO title at the top.
+
+---
+You will need to install `xaringan package` to use this presentation template.
+
+Introduction to the package can be found [here](https://slides.yihui.org/xaringan/#1)
+
+You can also look at the xaringan section of the [R Markdown The Definitive Guide](https://bookdown.org/yihui/rmarkdown/xaringan.html)
+
+---
+# Header 1 - No Class assigned to this slide
+
+## Header 2
+
+### Header 3
+
+This is the body of the slide. 
+
+---
+
+- Bullet 1
+- Bullet 2
+  - sub Bullet

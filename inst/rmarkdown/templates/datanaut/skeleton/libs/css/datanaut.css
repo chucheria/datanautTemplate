@@ -1,0 +1,83 @@
+/* Place changes to regular slides first, the title-slide */
+/* The code is read top down and last items can overwrite prior code*/
+
+.remark-slide-content {
+    background-color: #ffffff;
+    background-image: url("logo.svg");
+    background-size: contain;
+    padding-top: 60px;
+}
+
+.remark-slide h1 {
+    color: #005c91;
+    text-align: left;
+    margin-left: -10px;
+
+}
+
+.remark-slide h2, h3 {
+    color: #007bc2;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: '• ' ;
+    color: #f05f22;
+}
+
+li {
+ font-size: 20px;
+  margin: 18px 0;
+}
+
+
+/* Set background image for ochco-title slide */
+.datanaut-title-slide{
+  background-color: #ffffff;
+  background-image: url("logo.svg");
+  background-size: cover;
+  padding-top: 60px;
+}
+
+/* Set background image for title slide */
+.title-slide{
+  background-color: #ffffff;
+  background-image: url("datanautTitle.svg");
+  background-size: cover;
+}
+/* Remove slide number from title slide */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.title-slide h1  {
+  color: #005c91;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: -10px;
+  padding-top: 60px;
+}
+.title-slide h2  {
+  color: #007bc2;
+  font-size: 35px;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -10px;
+  margin-top: -25px;
+  margin-bottom: 150px;
+  padding-bottom: -20px;
+}
+.title-slide h3  {
+  color: #007bc2;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: -10px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}

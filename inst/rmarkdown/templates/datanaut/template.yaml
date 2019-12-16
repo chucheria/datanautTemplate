@@ -1,0 +1,4 @@
+name: OCHCO Slide Template
+description: >
+  Create an OCHCO presentation using the xaringan package based on remark.js.
+create_dir: false
