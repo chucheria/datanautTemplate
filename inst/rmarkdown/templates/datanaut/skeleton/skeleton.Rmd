@@ -20,7 +20,7 @@ class: datanaut-title-slide
 options(htmltools.dir.version = FALSE)
 ```
 
-Using this **class** will creates a slide with the OCHCO title at the top.
+Using this **class** will creates a slide with the datanaut title at the top.
 
 ---
 You will need to install `xaringan package` to use this presentation template.
@@ -29,6 +29,7 @@ Introduction to the package can be found [here](https://slides.yihui.org/xaringa
 
 You can also look at the xaringan section of the [R Markdown The Definitive Guide](https://bookdown.org/yihui/rmarkdown/xaringan.html)
 
+This section of the book dicusses [Document Templates](https://bookdown.org/yihui/rmarkdown/document-templates.html)
 ---
 # Header 1 - No Class assigned to this slide
 
