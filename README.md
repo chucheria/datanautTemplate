@@ -1,11 +1,38 @@
-# datanautTemplate
-Datanaut presentation template for use in RStudio
+Datanaut Slides Template
+================
 
-The Xaringan package is used to create a template for Datanaut presentations
-in RStudio.
+## Motivation
 
-TODO:
+We want to create a package with a custom theme for
+[{xaringan}](https://github.com/yihui/xaringan). We are recreating a
+custom template in [Googl
+Slides](https://docs.google.com/presentation/d/1PUWnXEx6Wzm6BXyW7YpZTDBObGMKsN2oHVIiCVo_ziU/).
 
-1. fonts
-2. datanaut-title--slide
-3. just about everything else
+## Workflow
+
+Before package the theme we are working with the
+[{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer) to
+create the `.css` files automatically. [This blog
+post](https://www.rostrum.blog/2019/05/24/xaringan-template/) explains
+how to package after you are satisfied with the theme. All changes are
+going in the R directory under the `nasa-datanauts.css` style sheet.
+
+## TODO
+
+  - \[ \] Font Header
+  - \[ \] Font Text
+  - \[ \] Font Code
+  - \[ \] Color Header
+  - \[ \] Color Text
+  - \[ \] Color Code
+  - \[ \] Title Slide Styles
+  - \[ \] Second title Styles
+  - \[ \] Picture Slide Styles
+  - \[ \] Add NASA Pictures easily
+  - \[ \] TOC for Slides
+  - \[ \] Package
+  - \[ \] Documentation
+
+### Optional
+
+  - \[ \] ggplot2 theme
